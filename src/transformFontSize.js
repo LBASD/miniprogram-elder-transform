@@ -11,7 +11,7 @@ const transformFontSizePlugin = (options = {}) => {
     Once(root, { result }) {
       root.walkRules((rule) => {
         let fontSizeValue;
-        const factor = 0.5;
+        const factor = 1;
         rule.walkDecls("font-size", (decl) => {
           // font-size 必须要带单位才进行转换
           const unit = valueParser.unit(decl.value);

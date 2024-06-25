@@ -24,7 +24,7 @@ const transformClassSizePlugin = ({classNames = []} = {}) => {
         if (!selectorMatch) return
 
 
-        const factor = 0.5
+        const factor = 1
         rule.walkDecls(/^(width|height)$/, decl => {
           // 必须要带单位才进行转换
           const unit = valueParser.unit(decl.value);

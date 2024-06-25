@@ -1,3 +1,11 @@
+/*
+ * @Author: LBASD
+ * @Date: 2024-06-25 10:06:53
+ * @LastEditors: LBASD
+ * @LastEditTime: 2024-06-25 14:33:54
+ * @FilePath: \miniprogram-elder-transform\src\transformPageMeta.js
+ * @Description: 
+ */
 import * as wxmlParser from "./utils/wxmlParser";
 
 /**
