@@ -1,10 +1,10 @@
 {
-  "name": "miniprogram-elder-transform",
-  "version": "0.0.4",
+  "name": "asd_miniprogram-elder-transform",
+  "version": "0.0.2",
   "description": "miniprogram transformer for elder",
   "main": "index.js",
   "bin": {
-    "miniprogram-elder-transform": "bin.js"
+    "asd_miniprogram-elder-transform": "bin.js"
   },
   "engines": {
     "node": ">= 12"
